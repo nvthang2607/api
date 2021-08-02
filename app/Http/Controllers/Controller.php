@@ -12,6 +12,6 @@ class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
     public function hello(Request $req){
-        dd("Hello sang");
+        dd("Hello luan van tot nghiep!!!!!");
     }
 }
